@@ -444,7 +444,7 @@ function BeforePlugin() {
     if (isCopying) return
     if (isComposing) return
 
-    if (editor.readOnly) return
+    //if (editor.readOnly) return
 
     // Save the new `activeElement`.
     const window = getWindow(event.target)

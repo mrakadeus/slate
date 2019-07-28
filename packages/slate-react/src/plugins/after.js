@@ -167,7 +167,7 @@ function AfterPlugin(options = {}) {
    */
 
   function onClick(event, editor, next) {
-    if (editor.readOnly) return next()
+    //if (editor.readOnly) return next()
 
     const { value } = editor
     const { document } = value
